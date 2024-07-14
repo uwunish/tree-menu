@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #eee;
+}
+
+.app-container-div {
+	display: inline-block;
+	min-width: 50vh;
+	min-height: 100vh;
+	background-color: #8585e8;
+}
+
+.item-div {
+	display: flex;
+	gap: 10px;
+}
+
+.menuList-container {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.item-div span {
+	position: relative;
+	top: 16px;
+}
+
+.menuItem-container {
+	cursor: pointer;
+	padding-left: 20px;
+}
